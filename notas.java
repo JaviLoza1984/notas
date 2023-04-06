@@ -39,7 +39,7 @@ public class notas {
 		System.out.print("ingrese nota 2: ");
 		
 		uf2= entrada.nextDouble();
-		System.out.print("ingrese nota 3: ");
+		System.out.print("ingrese nota 4: ");
 		
 		uf3= entrada.nextDouble();
 		
