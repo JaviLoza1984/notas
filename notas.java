@@ -13,7 +13,7 @@ public class notas {
 	 */
 	
 	
-	double uf1, uf2, uf3;
+	double uf4, uf5, uf6;
 	double acu1, acu2, acu3, def;
 	
 	/**
@@ -32,16 +32,16 @@ public class notas {
 		
 		System.out.print("ingrese nota 1: ");
 		
-		uf1= entrada.nextDouble();
+		uf4= entrada.nextDouble();
 
 		
 		
 		System.out.print("ingrese nota 2: ");
 		
-		uf2= entrada.nextDouble();
+		uf5= entrada.nextDouble();
 		System.out.print("ingrese nota 3: ");
 		
-		uf3= entrada.nextDouble();
+		uf6= entrada.nextDouble();
 		
 	
 	}
@@ -53,20 +53,20 @@ public class notas {
 	
 	public void comprobarcion(){
 		
-		if (uf1>10) {
+		if (uf4>10) {
 			System.out.println(" nota1 mal introducida");
 			
 		}else {
 			System.out.println(" nota1 correcta");
 		}
 		
-		if (uf2>10) {
+		if (uf5>10) {
 			System.out.println(" nota2 mal introducida");
 			
 		}else {
 			System.out.println(" nota2 correcta");
 		}
-		if (uf3>10) {
+		if (uf6>10) {
 			System.out.println(" nota3 mal introducida");
 			
 		}else {
@@ -84,9 +84,9 @@ public class notas {
 	
 	
 	public void Calculonotas() {
-		acu1= uf1*0.35;
-		acu2 = uf2 * 0.35;
-		acu3 = uf3 * 0.30;
+		acu1= uf4*0.35;
+		acu2 = uf5 * 0.35;
+		acu3 = uf6 * 0.30;
 		
 		def = acu1 + acu2+ acu3;
 		
@@ -100,9 +100,9 @@ public class notas {
 	public void Mostrar() {
 		
 		System.out.println(" notas introducidas son:");
-		System.out.println(" nota1 = " + uf1);
-		System.out.println(" nota2 = " + uf2);
-		System.out.println(" nota3 = " + uf3);
+		System.out.println(" nota1 = " + uf4);
+		System.out.println(" nota2 = " + uf5);
+		System.out.println(" nota3 = " + uf6);
 		
 		System.out.println(" acumuado 1 = "+ acu1);
 		System.out.println(" acumuado 2 = "+ acu2);
