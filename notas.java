@@ -131,7 +131,7 @@ public class notas {
 		
 	
 	/**
-	 * Esta es nuestra función principal
+	 * Esta es nuestra función principal 
 	 * @param args recibirá los datos de cada uno de los métodos utilizados
 	 */
 		
